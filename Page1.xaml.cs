@@ -47,7 +47,7 @@ namespace FirstFantasy
             Magic_Barite.itemDescription = $"Durability = {MB.Durability} , Resistance = {MB.Resistance} , Hurt = {MB.Hurt}";
 
             Potion_Of_Strength.itemName = $"{POS.Name}";
-            Potion_Of_Strength.itemDescription = "- Increase the " + POS.Health + "% of its strength.";
+            Potion_Of_Strength.itemDescription = "Increase the " + POS.Health + "% of its strength.";
 
 
             DataGrid.Items.Add(Copper_Armor);
@@ -125,6 +125,7 @@ namespace FirstFantasy
 
         }
     }
+
 }
 
 

@@ -33,11 +33,5 @@
 
 
         </DataGrid>
-        <ComboBox x:Name="CboxInventary" HorizontalAlignment="Left" Margin="319,319,0,0" VerticalAlignment="Top" Width="122">
-            <ComboBoxItem Content="" IsSelected="True" />
-            <ComboBoxItem Content="Axe" />
-            <ComboBoxItem Content="Bow" />
-            <ComboBoxItem Content="Sword" />
-        </ComboBox>
     </Grid>
 </Page>
