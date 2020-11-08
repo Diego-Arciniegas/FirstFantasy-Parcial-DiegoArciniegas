@@ -11,6 +11,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using FirstFantasy.Classes.Inventory;
 
 namespace FirstFantasy
 {
@@ -61,69 +62,7 @@ namespace FirstFantasy
             public string itemName { get; set; }
             public string itemDescription { get; set; }
         }
-        public class Additional
-        {
 
-            private string name;
-            private int durability;
-            private int resistance;
-            private int health;
-            private int hurt;
-            private int intelligence;
-
-            public string Name { get => name; set => name = value; }
-            public int Durability { get => durability; set => durability = value; }
-            public int Resistance { get => resistance; set => resistance = value; }
-            public int Health { get => health; set => health = value; }
-            public int Hurt { get => hurt; set => hurt = value; }
-            public int Intelligence { get => intelligence; set => intelligence = value; }
-        }
-        public class Copper_Armor : Additional
-        {
-            public Copper_Armor()
-            {
-                Name = "Copper Armor";
-                Durability = 65;
-                Resistance = 40;
-                Health = 40;
-            }
-
-        }
-        public class Tunic : Additional
-        {
-            public Tunic()
-            {
-                Name = "Tunic";
-                Durability = 25;
-                Resistance = 50;
-                Health = 62;
-                Intelligence = 50;
-
-
-            }
-        }
-        public class Magic_Barite : Additional
-        {
-            public Magic_Barite()
-            {
-                Name = "Magic Barite";
-                Hurt = 12;
-                Durability = 30;
-                Resistance = 35;
-
-
-            }
-        }
-        public class Potion_Of_Strength : Additional
-        {
-            public Potion_Of_Strength()
-            {
-                Name = "Potion Of Strength";
-                Health = 50;
-
-            }
-
-        }
     }
 
 }
